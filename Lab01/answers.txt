@@ -1,0 +1,29 @@
+- The program will display "You've chosen: No" because it defaults to display "No".
+- We can use the options parameter of the showOptionDialog method, which allows you to specify the buttons to display. For example: 
+import javax.swing.JOptionPane;
+
+public class ChoosingOption {
+    public static void main(String[] args) {
+        Object[] options = {"Yes", "No"};
+        
+        int option = JOptionPane.showOptionDialog(null,
+                "Do you want to change to the first class ticket?",
+                "Confirmation",
+                JOptionPane.YES_NO_OPTION,
+                JOptionPane.QUESTION_MESSAGE,
+                null,
+                options,
+                options[0]);
+
+        if (option == JOptionPane.YES_OPTION) {
+            JOptionPane.showMessageDialog(null, "You've chosen: Yes");
+        } else if (option == JOptionPane.NO_OPTION) {
+            JOptionPane.showMessageDialog(null, "You've chosen: No");
+        }
+        System.exit(0);
+    }
+}
+
+
+
+
