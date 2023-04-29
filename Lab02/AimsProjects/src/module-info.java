@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author tuant
+ *
+ */
+module AimsProjects {
+}
