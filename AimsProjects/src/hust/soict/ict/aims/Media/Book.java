@@ -35,6 +35,9 @@ public class Book extends Media {
         }
 
     }
+    public String toString() {
+		return "Book - Id: " + this.getId() + " - " + this.getTitle() + " - " + this.getCategory()  + " : " + this.getCost() + " $";
+	}
 
 }  
 

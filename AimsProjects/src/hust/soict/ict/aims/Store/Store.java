@@ -40,7 +40,7 @@ public class Store {
 		System.out.println("\n***********************CART***********************");
 		System.out.println("Items in store:\n");
 		for (int i=1; i<=itemsInStore.size(); i++) {
-			System.out.println("#" + i + itemsInStore.get(i-1).toString());
+			System.out.println("#" + i + ". " + itemsInStore.get(i-1).toString());
 		}
 		System.out.println("***************************************************");
 	}
