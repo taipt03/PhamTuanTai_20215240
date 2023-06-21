@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author tuant
- *
- */
-module AimsProjects {
-}

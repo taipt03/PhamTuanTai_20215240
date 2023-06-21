@@ -1,7 +1,0 @@
-1. Cart contains multiple Media items, Store contains multiple Media items, and CompactDisc contains multiple Tracks.
-2. If the object being evaluated is not an instance of Media, the equals() method will return false.
-3. Since Book, CompactDisc, and DigitalVideoDisc inherit from Media, the objects book, cd, and dvd are also considered instances of Media.
-4. The class Media implements the Comparable interface.
-5. The compareTo() method is required to return a negative integer, zero, or a positive integer depending on whether the current object is less than, equal to, or greater than the specified object, respectively.
-6. No, it is not possible to implement the Comparable interface more than once in the Media class because it is used for internal comparisons.
-7. I have overridden the compareTo() method specifically in the DigitalVideoDisc class.
